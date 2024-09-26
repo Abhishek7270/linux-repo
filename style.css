@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+    height: 10vh;
+    align-items: center;
+    font-size: 20px;
+    
+    
+ 
+
+}
+/*hero section start*/
+
+
+.hero-section{
+    background-color: #18BC9C;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+
+}
+
+.hero-section p {
+    color: #FFF;
+    font-size: 32px;
+    
+}
+
+
+.sub-section{
+    color: rgb(144, 141, 141);
+    display: flex;
+    justify-content: center;
+    padding: 4vh 6vw;
+}
+
+/* form section*/
+.form-section {
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.form{
+    padding: 15px 0;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding-left: 5px;
+
+}
+
+.sub-button{
+    height: 30px;
+    background-color: #18BC9C;
+    color: #FFF;
+    padding: 0 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-button:hover{
+    background-color: #0c6957;
+}
+.grass-section{
+    display: flex;
+    justify-content: center;
+    padding: 4vh 8vw;
+    font-size: 26px;
+    color: rgb(176, 172, 172);
+}
+
+
+
+
+/*card section*/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4vh 8vw;
+    gap: 10px;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.card{
+    width: 18vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+ 
+
+
+}
+
+.card:hover{
+    background-color:  #18BC9C;
+}
+
+.card img{
+    border-radius: 50%;
+    
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0vh;
+}
+.card-containers{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    justify-content: center;
+    background-color: #F7F7F7;
+
+}
+.cards{
+    width: 18vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+ 
+
+
+}
+
+
+.footer{
+    background-color: grey;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 15vw;
+}
+.footer-1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.footer-2{
+    color: white;
+    font-size: 18px;
+}
+.footer-3{
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+}
